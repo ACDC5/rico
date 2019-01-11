@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7725eb7b-ef8d-4b95-9eff-d0e3dd0232bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/Include/DC2.py" afterDir="false" />
-    </list>
+    <list default="true" id="7725eb7b-ef8d-4b95-9eff-d0e3dd0232bc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +12,7 @@
     <session id="1340667583">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -255,7 +254,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
