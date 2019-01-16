@@ -6,7 +6,7 @@ rr = re.search(r'Wiki(a|P)','WikiP')  #匹配Wikia或WikiP 括号里面的内容
 print(rr)
 
 wk = re.search(r'^Zeng','Zengzhifa') # ^脱字符匹配输入字符串的开始位置,即参数二的第一个字母要和参数一的第一个字母相同
-print(wk)F
+print(wk)
 
 wk1 = re.search(r'FishC$','LoveFishC') # $匹配输入字符串的结束位置,即参数二的最后一个字母要和参数一的最后一个字母相同
 print(wk1)
