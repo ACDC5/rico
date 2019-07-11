@@ -50,6 +50,13 @@ print('wk11: ',wk11)
 # ? 匹配前面子表达式0次或一次.   推荐使用这个三个符号代替{},因为比较高效
 
 #贪婪模式,正则表达式默认式开启贪婪模式的，贪婪模式:即在符合的情况下正则表达式会尽可能多的匹配字符
+#加入?号即等于防止贪婪模式:
+	'''
+	re.compile('<option value="(.*?)" selected="">')此语句匹配以下html中的网址,问号即表示非贪婪模式,
+	即每次只匹配一个<option...和selected...
+	<option value="http://jx.du2.cc/?url=" selected="">⑤号通用vip引擎系统【稳定通用】</option> 
+    <option value="http://jx.drgxj.com/?url=" selected="">④号通用vip引擎系统【超级稳定通用】</option>
+	'''
 h = '<html><title>I love Wiki.com</title></html>'
 wk12 = re.search(r'<.+>',h) # 匹配到<符号后,再根据.匹配<符号后的任意一个字符,然后+号根据.再次匹配一次或多次,由于开启了贪婪模式,所以+会匹配>前的所有字符
 print('wk12: ',wk12)
@@ -57,6 +64,9 @@ print('wk12: ',wk12)
 h = '<html><title>I love Wiki.com</title></html>'
 wk13 = re.search(r'<.+?>',h) # 匹配到<符号后,再根据.匹配<符号后的任意一个字符,+号根据.再次匹配一次或多次,由于?号最多只匹配前面子表达式(+)1次,所以贪婪模式由此被禁止了
 print('wk13: ',wk13)
+
+
+
 
 
 
